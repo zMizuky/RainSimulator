@@ -1,0 +1,14 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    margin-right: 50px;
+    color: white;
+}
+
+p {
+    margin-left: 30px;
+}

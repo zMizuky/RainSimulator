@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain Simulator</title>
+</head>
+<body>
+    
+    <nav>
+    <div class="nav-wrapper">
+    <form action="#">
+        <p>
+            <audio id="rain1" loop>
+                <source id="therain" src="sounds/rain-01.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="thunder1" loop>
+                <source src="sounds/thunder.mp3" type="audio/mpeg">
+            </audio>
+            <span>Options: </span>
+            <label>
+              <input onclick="theRain()" id="rain" type="checkbox" class="filled-in"/>
+              <span>Rain</span>
+            </label>
+            <label>
+                <input onclick="theThunder()" id="thunder" type="checkbox" class="filled-in"/>
+                <span>Thunderstorm</span>
+            </label>
+            <a class="waves-effect waves-light btn" onclick="aleatoryR()">Change Rain</a>
+            <a class="waves-effect waves-light btn" onclick="aleatoryT()">Change Thunder</a>
+        </p>
+    </form>
+    </div>
+    </nav>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
