@@ -66,7 +66,7 @@ function aleatoryImg(){
 
 var txtN = document.getElementById("txtN")
 function setImage(img){
-    document.getElementById("html").style.backgroundImage = "url('../imgs/" + img + ".jpeg')"
+    document.getElementById("html").style.backgroundImage = "url('https://raw.githubusercontent.com/zMizuky/RainSimulator/master/imgs/" + img + ".jpeg')"
     txtN.innerHTML = "Image by: " + img;
 }
 
