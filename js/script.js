@@ -5,7 +5,6 @@ var img = [
     "Stefan Stefancik",
     "Stein Egil Liland"
 ];
-//a
 var rain = document.getElementById("rain");
 var rain1 = document.getElementById("rain1");
 var thunder1 = document.getElementById("thunder1");
